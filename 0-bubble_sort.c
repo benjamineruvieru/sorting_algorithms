@@ -30,10 +30,10 @@ void bubble_sort(int *array, size_t size)
 	if (size < 2)
 		return;
 
-	for (i = 0; i < size; i++)	/* go through the array */
+	for (i = 0; i < size; i++) /* go through the array */
 	{
 		flag = 0;
-		for (j = 0; j < size - i - 1; j++)	/* loop only the unsorted */
+		for (j = 0; j < size - i - 1; j++) /* loop only the unsorted */
 		{
 			if (array[j] > array[j + 1])
 			{
